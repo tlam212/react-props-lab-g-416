@@ -4,7 +4,8 @@ class Spaceship extends React.Component{
   render(){
     return (
       <div>
-        <p>
+        <p>{this.props.name}</p>
+        <p>{this.props.speed}</p>
       
       </div>
       
